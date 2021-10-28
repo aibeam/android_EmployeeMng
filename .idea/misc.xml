@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_edit.xml" value="0.2046875" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_employee_list.xml" value="0.33" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_insert.xml" value="0.33" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_item.xml" value="0.2046875" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_list_cardview.xml" value="0.365625" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_cardview.xml" value="0.36614583333333334" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_edit.xml" value="0.36614583333333334" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_list.xml" value="0.3619791666666667" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_list_view.xml" value="0.36614583333333334" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_register.xml" value="0.36614583333333334" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/register.xml" value="0.3619791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
