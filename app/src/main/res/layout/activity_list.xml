@@ -20,9 +20,8 @@
 
         <TextView
             android:id="@+id/tbId"
-            android:layout_width="wrap_content"
+            android:layout_width="45dp"
             android:layout_height="wrap_content"
-            android:layout_weight="0.5"
             android:background="#9d03fc"
             android:gravity="center"
             android:textSize="20sp"
@@ -31,9 +30,8 @@
 
         <TextView
             android:id="@+id/tbName"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1.5"
             android:background="#9d03fc"
             android:gravity="center"
             android:textSize="20sp"
@@ -42,20 +40,18 @@
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="wrap_content"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#9d03fc"
             android:gravity="center"
+            android:background="#9d03fc"
             android:textSize="20sp"
             android:textColor="#FFFFFF"
             android:text="나이" />
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:background="#9d03fc"
             android:gravity="center"
             android:textSize="20sp"
@@ -65,9 +61,9 @@
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>

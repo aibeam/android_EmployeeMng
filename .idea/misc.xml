@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_edit.xml" value="0.2046875" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_employee_card_view.xml" value="0.3296296296296296" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_employee_list.xml" value="0.33" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_insert.xml" value="0.33" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_item.xml" value="0.2046875" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_list.xml" value="0.2046875" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_list_cardview.xml" value="0.365625" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/activity_main.xml" value="0.34739583333333335" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_cardview.xml" value="0.36614583333333334" />
@@ -15,6 +17,7 @@
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_list.xml" value="0.3619791666666667" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_list_view.xml" value="0.36614583333333334" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/employee_register.xml" value="0.36614583333333334" />
+        <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/list_row.xml" value="0.33" />
         <entry key="..\:/classAndroid/workspace/SampleEmployeeMng/app/src/main/res/layout/register.xml" value="0.3619791666666667" />
       </map>
     </option>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleEmployeeMng">
         <activity
+            android:name=".EmployeeCardView"
+            android:exported="false" />
+        <activity
             android:name=".ListActivity"
             android:exported="false" />
         <activity
