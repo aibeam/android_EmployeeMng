@@ -31,9 +31,9 @@ public class ListActivity extends AppCompatActivity {
         adapter.setOnEmployeeItemClickListener(new OnEmployeeItemClickListener() {
             @Override
             public void onItemClick(EmployeeAdapter.ViewHolder holder, View v, int position) {
-                Employee item = adapter.getItem(position);
-                Intent intent = new Intent(getApplicationContext(), EmployeeCardView.class);
-                intent.putExtra("item", item);
+                Employee employee = adapter.getItem(position);
+                Intent intent = new Intent(getApplicationContext(), DetailActivity.class);
+                intent.putExtra("employee", employee);
                 startActivity(intent);
             }
         });

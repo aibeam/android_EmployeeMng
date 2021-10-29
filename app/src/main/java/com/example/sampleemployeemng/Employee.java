@@ -3,6 +3,8 @@ package com.example.sampleemployeemng;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.annotation.NonNull;
+
 public class Employee implements Parcelable {
     public static final Creator<Employee> CREATOR = new Creator<Employee>() {
         @Override
@@ -71,5 +73,11 @@ public class Employee implements Parcelable {
         dest.writeInt(age);
         dest.writeString(name);
         dest.writeString(mobile);
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return id+"/"+name+"/"+age+"/"+mobile+"\n";
     }
 }

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployeeCardView">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="사원 정보"
+        android:textSize="40dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="이름"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/detName"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="나이"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/detAge"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="연락처"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/detMobile"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="40dp"
+            android:gravity="center_horizontal"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#ba0202"
+            android:onClick="delete"
+            android:text="삭제"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnModify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="수정"
+            android:onClick="modify"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btnCardClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="goBack"
+            android:layout_weight="1"
+            android:backgroundTint="#2b1f45"
+            android:text="닫기"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>
